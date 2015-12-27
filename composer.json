@@ -1,0 +1,25 @@
+{
+  "name": "skyling/flysystem-qiniu",
+  "description": "flysystem 七牛适配器",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "skyling",
+      "email": "frenlee710@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Skyling\\Flysystem\\Qiniu\\": "src/"
+    }
+  },
+  "require": {
+    "league/flysystem": "1.0.15",
+    "qiniu/php-sdk": "~7.0.5"
+  },
+  "repositories": [
+    {"type": "composer", "url": "http://packagist.phpcomposer.com"},
+    {"packagist": false}
+  ]
+}
