@@ -1,5 +1,5 @@
 {
-  "name": "skyling/flysystem-qiniu",
+  "name": "zplzpl/flysystem-qiniu",
   "description": "flysystem Adapter for Qiniu",
   "license": "MIT",
   "require": {
@@ -9,13 +9,13 @@
   },
   "authors": [
     {
-      "name": "skyling",
-      "email": "frenlee710@gmail.com"
+      "name": "zplzpl",
+      "email": "360737395@qq.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Skyling\\QiniuStorage\\": "src/"
+      "zplzpl\\QiniuStorage\\": "src/"
     }
   }
 }
